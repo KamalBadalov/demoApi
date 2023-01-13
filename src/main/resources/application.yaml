@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    password: Ivan230691
+    url: jdbc:postgresql://localhost:5433/kamaldb
+    username: postgres
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
